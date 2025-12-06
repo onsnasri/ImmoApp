@@ -76,7 +76,7 @@ final class PropertyFixtures extends Fixture implements DependentFixtureInterfac
                 $this->getReference('Villa', Category::class),
                 5,
                 null,
-                $this->getReference('Tampa', City::class),
+                $this->getReference('Tunis', City::class),
                 $this->getReference('South Tampa', District::class),
                 $this->getReference('Culbreath Isles', Neighborhood::class),
                 null,

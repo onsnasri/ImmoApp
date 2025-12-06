@@ -29,10 +29,10 @@ final class NeighborhoodFixtures extends Fixture implements DependentFixtureInte
     {
         return [
             // $neighborhoodData = [$city, $name, $slug];
-            [$this->getReference('Miami', City::class), 'South Beach', 'south-beach'],
-            [$this->getReference('Miami', City::class), 'Downtown', 'downtown'],
-            [$this->getReference('Tampa', City::class), 'Ballast Point', 'ballast-point'],
-            [$this->getReference('Tampa', City::class), 'Culbreath Isles', 'culbreath-isles'],
+            [$this->getReference('Hammamet', City::class), 'South Beach', 'south-beach'],
+            [$this->getReference('Hammamet', City::class), 'Downtown', 'downtown'],
+            [$this->getReference('Tunis', City::class), 'Ballast Point', 'ballast-point'],
+            [$this->getReference('Tunis', City::class), 'Culbreath Isles', 'culbreath-isles'],
         ];
     }
 
