@@ -25,7 +25,12 @@ final class DistrictFixtures extends Fixture implements DependentFixtureInterfac
         $manager->flush();
     }
 
-
+    private function getDistrictData(): array
+    {
+        return [
+            [$this->getReference('Tunis', City::class), 'South Tampa', 'south-tampa'],
+        ];
+    }
 
     public function getDependencies(): array
     {
