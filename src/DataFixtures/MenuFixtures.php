@@ -29,7 +29,6 @@ final class MenuFixtures extends Fixture
             ['Homepage', '/', 'en'],
             ['About Us', '/info/about-us', 'en'],
             ['Contact', '/info/contact', 'en'],
-            ['Source Code', 'https://github.com/Coderberg/ResidenceCMS', 'en'],
         ];
     }
 }
