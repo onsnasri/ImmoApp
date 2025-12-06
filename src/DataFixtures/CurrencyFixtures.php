@@ -28,12 +28,7 @@ final class CurrencyFixtures extends Fixture
     private function getCurrencyData(): array
     {
         return [
-            ['US Dollar', 'USD', '$', ''],
-            ['Euro', 'EUR', '', '€'],
-            ['Pound Sterling', 'GBP', '£', ''],
-            ['Hong Kong Dollar', 'HKD', 'HK$', ''],
-            ['Russian Ruble', 'RUB', '₽', ''],
-            ['Belarusian ruble', 'BYN', '', 'Br'],
+            ['Tunisian Dinars', 'DT', 'dt  ', ''],
         ];
     }
 }

@@ -28,9 +28,9 @@ final class CityFixtures extends Fixture
     {
         return [
             // $cityData = [$slug, $name, $title];
-            ['miami', 'Miami', 'Miami Luxury Real Estate'],
+            ['hammamet', 'Hammamet', 'Hammamet Luxury Real Estate'],
             ['palm-beach', 'Palm Beach', 'West Palm Beach, FL Apartments'],
-            ['tampa', 'Tampa', 'Tampa Real Estate'],
+            ['tunis', 'Tunis', 'Tunis Real Estate'],
         ];
     }
 }
